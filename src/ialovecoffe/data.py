@@ -11,7 +11,7 @@ from loguru import logger as log
 # NEW DATASETS
 #
 
-def read_A_thrombosis_non_thrombosis_v5(path_src = 'ialovecoffe/inputSets_for_thrombosis_pipeline/'):
+def read_A_thrombosis_non_thrombosis_v5(path_src = '../dataset/'):
     df = pd.read_csv(f'{path_src}thrombosis_non_thrombosis_v5.csv', sep='\t')
 
     Y = df['type'].copy()
@@ -19,7 +19,7 @@ def read_A_thrombosis_non_thrombosis_v5(path_src = 'ialovecoffe/inputSets_for_th
     X = df
     return X, Y
 
-def read_B_type_I_PE_vs_Type_II_v4(path_src = 'ialovecoffe/inputSets_for_thrombosis_pipeline/'):
+def read_B_type_I_PE_vs_Type_II_v4(path_src = '../dataset/'):
     df = pd.read_csv(f'{path_src}type_I_PE_vs_Type_II_v4.csv', sep='\t')
 
     Y = df['type'].copy()
@@ -27,7 +27,7 @@ def read_B_type_I_PE_vs_Type_II_v4(path_src = 'ialovecoffe/inputSets_for_thrombo
     X = df
     return X, Y
 
-def read_C_type_I_vs_Type_II_no_PE_v4(path_src = 'ialovecoffe/inputSets_for_thrombosis_pipeline/'):
+def read_C_type_I_vs_Type_II_no_PE_v4(path_src = '../dataset/'):
     df = pd.read_csv(f'{path_src}type_I_vs_Type_II_no_PE_v4.csv', sep='\t')
     
     Y = df['type'].copy()
@@ -36,7 +36,7 @@ def read_C_type_I_vs_Type_II_no_PE_v4(path_src = 'ialovecoffe/inputSets_for_thro
     return X, Y
 
 
-def read_D_type_I_PE_vs_Type_II_v4(path_src = 'ialovecoffe/inputSets_for_thrombosis_pipeline/'):
+def read_D_type_I_PE_vs_Type_II_v4(path_src = '../dataset/'):
     df = pd.read_csv(f'{path_src}type_I_PE_vs_Type_II_v4.csv', sep='\t')
     
     Y = df['type'].copy()
