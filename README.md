@@ -6,10 +6,18 @@ Blood coagulation is a vital process for humans and other species. Following an 
 
 We designed a machine learning framework for the classification of Thombose (Analyses Thrombosis Structure) and although our training data was limited, after careful optimization, Analyzes Thrombosis Structure was able to identify properties related to patterns that quantify the pathology of thrombosis.
 
-Here you will find the datasets and the source code used in the manuscript “[Computational Analyses Reveal Fundamental Properties of the AT Structure Related to Thrombosis]( https://doi.org/10.1093/bioadv/vbac098)”, by Tiago Lopes, Ricardo Rios, Tatiane Nogueira and Rodrigo Mello.
+Here you will find the datasets and the source code used in the manuscript “[Computational Analyses Reveal Fundamental Properties of the AT Structure Related to Thrombosis]( https://doi.org/10.1093/bioadv/vbac098)”, by 
 
 [Tiago J S Lopes](https://scholar.google.com.br/citations?user=U_7gGdsAAAAJ&hl=pt-BR&oi=sra), [Ricardo A Rios](https://scholar.google.com.br/citations?user=esk3iMYAAAAJ&hl=pt-BR), [Tatiane N Rios](https://scholar.google.com.br/citations?user=TbGWmKIAAAAJ&hl=pt-BR), [Brenno M Alencar](https://scholar.google.com.br/citations?user=EDu4gfUAAAAJ&hl=pt-BR&oi=sra), [Marcos V Ferreira](https://scholar.google.com.br/citations?user=vW2mWMwAAAAJ&hl=pt-BR), [Eriko Morishita](javascript:;)
 
-### How to use
+### Project structure
 
-- 
+> - **/dataset** - contains the datasets to reproduce our findings and create the figures.
+>
+> - **/src** - contains the source code for the machine learning framework and for other analyses.
+>
+> - **/results** - you can find the pre-trained classification models in this folder.
+>
+>   
+
+## Run 

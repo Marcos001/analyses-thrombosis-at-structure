@@ -1,0 +1,9 @@
+nupmpy
+pandas
+imblearn
+loguru
+tqdm
+matplotlib
+rpy2
+xgboost
+hyperopt
