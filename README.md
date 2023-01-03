@@ -8,7 +8,7 @@ We designed a machine learning framework for the classification of Thombose (Ana
 
 Here you will find the datasets and the source code used in the manuscript “[Computational Analyses Reveal Fundamental Properties of the AT Structure Related to Thrombosis]( https://doi.org/10.1093/bioadv/vbac098)”, by 
 
-[Tiago J S Lopes](https://scholar.google.com.br/citations?user=U_7gGdsAAAAJ&hl=pt-BR&oi=sra), [Ricardo A Rios](https://scholar.google.com.br/citations?user=esk3iMYAAAAJ&hl=pt-BR), [Tatiane N Rios](https://scholar.google.com.br/citations?user=TbGWmKIAAAAJ&hl=pt-BR), [Brenno M Alencar](https://scholar.google.com.br/citations?user=EDu4gfUAAAAJ&hl=pt-BR&oi=sra), [Marcos V Ferreira](https://scholar.google.com.br/citations?user=vW2mWMwAAAAJ&hl=pt-BR), [Eriko Morishita](javascript:;)
+[Tiago J S Lopes](https://scholar.google.com.br/citations?user=U_7gGdsAAAAJ&hl=pt-BR&oi=sra), [Ricardo A Rios](https://scholar.google.com.br/citations?user=esk3iMYAAAAJ&hl=pt-BR), [Tatiane N Rios](https://scholar.google.com.br/citations?user=TbGWmKIAAAAJ&hl=pt-BR), [Brenno M Alencar](https://scholar.google.com.br/citations?user=EDu4gfUAAAAJ&hl=pt-BR&oi=sra), [Marcos V Ferreira](https://scholar.google.com.br/citations?user=vW2mWMwAAAAJ&hl=pt-BR), [Eriko Morishita](javascript:;).
 
 ### Project structure
 
@@ -21,3 +21,21 @@ Here you will find the datasets and the source code used in the manuscript “[C
 >   
 
 ## Run 
+
+To run machine traditional machine learning models:
+
+```bash
+cd src
+python experiment.py
+```
+
+To run our model `synclass`:
+
+```bash
+cd src
+python experiment_synclass.py
+```
+
+If you find any issues with the code, please contact us: tiago-jose@ncchd.go.jp, ricardoar@ufba.br, tatiane.nogueira@ufba.br.
+
+On the behalf of all of the authors, we appreciate your interest in Hema-Class and hope it is useful to your research.
